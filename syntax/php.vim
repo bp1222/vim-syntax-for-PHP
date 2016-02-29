@@ -1108,7 +1108,7 @@ syntax keyword phpSpecialFunction containedin=ALLBUT,phpComment,phpStringDouble,
 " Highlighting for __autoload slightly different from line above
 syntax keyword phpSpecialFunction containedin=ALLBUT,phpComment,phpStringDouble,phpStringSingle,phpIdentifier,phpMethodsVar
   \ __autoload
-highlight link phpSpecialFunction phpOperator
+highlight link phpSpecialFunction phpMagicMethod
 
 syntax case match
 " Highlighting for PHP5's built-in classes
